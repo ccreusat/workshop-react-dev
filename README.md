@@ -25,7 +25,8 @@ npx degit ccreusat/workshop-react-dev product-feedback
 - Node not installed :
 
 ```bash
-docker run --rm -it -v $PWD:/home/node/app opendigitaleducation/node:16-alpine \ npx degit ccreusat/workshop-react-dev product-feedback
+docker run --rm -it -v $PWD:/home/node/app opendigitaleducation/node:16-alpine \                                                           
+     npx degit ccreusat/workshop-react-dev product-feedback
 ```
 
 Go into the app directory
