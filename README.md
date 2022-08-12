@@ -14,7 +14,7 @@ This project uses many tools like:
 
 ### Install
 
-clone the project.
+Clone the project.
 
 ```bash
 npx degit ccreusat/workshop-react-dev product-feedback
