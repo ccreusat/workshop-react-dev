@@ -1,8 +1,15 @@
 version: "3.8"
 services:
+  node:
+    image: node:16-alpine
+    working_dir: /home/node/app
+    volumes:
+      - ./:/home/node/app
   app:
     build: .
-    container_name: workshop-app
+    container_name: workshop-app-dev
+    command: npm run dev
+    image: workshop-app-dev:latest
     ports:
       - "8000:8000"
     volumes:
