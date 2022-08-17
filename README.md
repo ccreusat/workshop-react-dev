@@ -54,3 +54,7 @@ Start the app at <http://localhost:8000>
 ```bash
 make start
 ```
+
+## Endpoint
+- You can use `feedbacks.json` as static data
+- You can use this endpoint to fetch feedbacks : `https://api.jsonbin.io/v3/b/62fcdcc7a1610e638602907e
