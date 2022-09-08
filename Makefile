@@ -1,6 +1,6 @@
 install:
 	mkdir -p node_modules
-	docker-compose -p workshop run app sh -c "npm rebuild esbuild && npm install"
+	docker-compose -p workshop run --rm app sh -c "npm rebuild esbuild && npm install"
 
 start:
 	docker-compose -p workshop up
